@@ -1,7 +1,0 @@
----
-- hosts: all
-  gather_facts: no
-  tasks:
-  - name: ノートパッドを起動する
-    script: files/start-notepad.ps1
-
