@@ -1,5 +1,5 @@
 ---
-- name: Hello World!
+- name: LINUX Server resource check.
   hosts: all
   user: soichiro
   tasks:
