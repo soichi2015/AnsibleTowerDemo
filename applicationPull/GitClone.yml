@@ -6,5 +6,5 @@
  
 # Git Clone
    - name: Git clone from repo
-   - git: repo=https://github.com/soichi2015/helloworld.git dest=/home/soichiro/tmp/helloworld
+     git: repo=https://github.com/soichi2015/helloworld.git dest=/home/soichiro/tmp/helloworld
  
