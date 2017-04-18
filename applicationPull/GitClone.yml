@@ -1,0 +1,10 @@
+---
+- name: Application clone
+  hosts: all
+  user: soichiro
+  tasks:
+ 
+# Git Clone
+   - name: Git clone from repo
+   - git: repo=https://github.com/soichi2015/helloworld.git dest=/home/soichiro/tmp/helloworld
+ 
