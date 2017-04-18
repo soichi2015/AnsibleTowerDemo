@@ -1,0 +1,9 @@
+---
+- name: Make a war file
+  hosts: all
+  user: soichiro
+  tasks:
+ 
+# Make a .war
+   - name: Make a .war
+     shell: jar -cf /home/soichiro/tmp/jboss-helloworld-v3.0.war /home/soichiro/tmp/helloworld
