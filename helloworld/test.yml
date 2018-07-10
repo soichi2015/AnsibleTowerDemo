@@ -19,3 +19,6 @@
    - name: Check "free -m" as Memory SIZE
      shell: "free -m"
      ignore_errors: yes
+  
+   - name: show msg
+     debug: msg={{text_msg}}
