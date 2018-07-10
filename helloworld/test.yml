@@ -6,7 +6,7 @@
 
   tasks:
 # vmstat check
-   - name: Check "vmstat -t 1 10" as SERVER RESOUCE
+   - name: Check "vmstat -t 1 50" as SERVER RESOUCE
      shell: "vmstat 1 50 | while read line; do  echo  `date` $line  ; done"
      ignore_errors: yes
  
