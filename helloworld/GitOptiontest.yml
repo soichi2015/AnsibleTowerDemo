@@ -1,0 +1,9 @@
+---
+- name: LINUX Server resource check.
+  hosts: all
+  vars:
+    text_msg : Hello!
+
+  tasks:  
+   - name: show msg
+     debug: msg={{text_msg}}
