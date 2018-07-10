@@ -2,7 +2,7 @@
 - name: LINUX Server resource check.
   hosts: all
   vars:
-    text_msg : Hello
+    text_msg : Hello!!!!
 
   tasks:
 # vmstat check
