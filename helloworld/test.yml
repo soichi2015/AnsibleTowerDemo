@@ -7,7 +7,7 @@
   tasks:
 # vmstat check
    - name: Check "vmstat -t 1 10" as SERVER RESOUCE
-     shell: "vmstat 1 10 | while read line; do  echo  `date` $line  ; done"
+     shell: "vmstat 1 20 | while read line; do  echo  `date` $line  ; done"
      ignore_errors: yes
  
 # Disk Size check
