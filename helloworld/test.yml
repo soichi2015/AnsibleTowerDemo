@@ -1,8 +1,7 @@
 ---
 - name: LINUX Server resource check.
   hosts: all
-  user: soichiro
-  tasks:
+  vars:
  
 # vmstat check
    - name: Check "vmstat -t 1 10" as SERVER RESOUCE
