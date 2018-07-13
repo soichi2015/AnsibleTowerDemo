@@ -1,0 +1,12 @@
+---
+- name: LINUX Server resource check.
+  hosts: all
+  vars:
+    text_msg : Hello!
+
+  tasks:
+# vmstat check
+   - name: Hello!World
+     debug: msg="Hello!"
+     ignore_errors: yes
+ 
